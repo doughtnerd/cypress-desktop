@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat $DOCKER_HOME/WELCOME 2> /dev/null
+CYPRESS_CACHE_FOLDER=/home/ubuntu/Cypress cypress open
+exec $SHELL -l
